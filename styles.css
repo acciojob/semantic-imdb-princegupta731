@@ -1,69 +1,81 @@
 
-/* Your CSS Code here. */
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f7fa;
-      color: #333;
-      margin: 0;
-      padding: 0;
-    }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
 
-    header {
-      background-color: #1c1f26;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
+  body {
+    background-color: #f4f4f4;
+    padding: 20px;
+    color: #333;
+  }
 
-    nav {
-      background-color: #2a2f3a;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px;
-    }
+  header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
 
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-      transition: color 0.3s;
-    }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: #555;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
 
-    nav a:hover {
-      color: #ffd700;
-    }
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
 
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+  nav a:hover {
+    text-decoration: underline;
+  }
 
-    section {
-      background-color: #ffffff;
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
+  section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
 
-    aside {
-      background-color: #e3e9f0;
-      padding: 15px;
-      border-left: 5px solid #1c1f26;
-      margin-bottom: 20px;
-      border-radius: 8px;
-    }
+  #actor {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2196f3;
+  }
 
-    footer {
-      background-color: #1c1f26;
-      color: white;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-    }
+  details {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
 
-    h2 {
-      color: #1c1f26;
-    }
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  aside {
+    background: #e3f2fd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
